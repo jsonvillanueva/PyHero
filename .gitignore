@@ -7,6 +7,7 @@ __pycache__/
 *.so
 
 # Distribution / packaging
+pyhero/songs/
 .Python
 build/
 develop-eggs/
