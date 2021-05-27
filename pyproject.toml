@@ -25,10 +25,6 @@ version = "^20.8b1"
 allow-prereleases = false
 python = "^3.7"
 
-[tool.pytest.ini_options]
-markers = "slow: Mark the test as slow. Can be skipped with --skip_slow"
-addopts = "--cov=manim --cov-report xml --cov-report term"
-
 [tool.isort]
 # from https://black.readthedocs.io/en/stable/compatible_configs.html
 multi_line_output = 3
